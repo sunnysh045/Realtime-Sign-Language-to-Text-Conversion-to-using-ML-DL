@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E8EAED;
+}
+
+.container{
+    display: flex;
+    /* background: red; */
+    margin-top: 5rem;
+    height: 25rem;
+    width: auto;
+}
+
+.navbar-brand{
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-left: 25em;
+    margin-right: auto;
+    font-size: 27px;
+}
+
+.static-card{
+    background: #fff;
+    border: 0.2px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.34);
+    height: 20rem;
+    width: 18rem;
+    margin-top: 3rem;
+    margin-right: 50px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+
+.static-card:hover{
+    transform: scale(0.9);
+ }
+ 
+.static-card h4{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.static-card p{
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.static-card a{
+    margin-left: 101px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #141A4F;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.35);
+}
+
+.custom_enter{
+    position: relative;
+    top: 19px;
+}
+
+.footer{
+    background: #fff;
+    position: relative;
+    top: 135px;
+    height: 70px;
+    box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.35);
+}
+
+.footer h5{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#profile-link
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 52px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}

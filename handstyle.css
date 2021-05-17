@@ -1,0 +1,7 @@
+
+#output{
+    transform: scaleX(-1);
+    position: relative;
+    left: 13em;
+    top: 158px;
+}

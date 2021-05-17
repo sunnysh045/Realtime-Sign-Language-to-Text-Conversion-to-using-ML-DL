@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background: rgb(33,42,130);
+    background: linear-gradient(133deg, rgba(33,42,130,1) 46%, rgba(0,0,0,1) 77%);
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+nav li a{
+    color: #fff;
+}
+
+.container{
+    border: 6px ridge #fff;
+    position: relative;
+    top: 6.6rem;
+    height: 37rem;
+    width: 91rem;
+}
+
+#defaultCanvas0{
+    border: 5px ridge #212A82;
+    width: 350px;
+    height: 380px;
+    position: relative;
+    left: 11.6rem;
+    bottom: 24rem;
+}
+
+.sentence-cont{
+    border: 5px outset royalblue;
+    width: 46em;
+    height: 8rem;
+    position: relative;
+    left: 32rem;
+    top: 10rem;
+}
+
+.sentence-cont h4{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    line-height: 30px;  
+}
+
+#pred-box h4{
+    font-family: 'Noto Sans TC', sans-serif;
+    border: 5px ridge #2086E8;
+    width: 17rem;
+    height: 15.5rem;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 36px;
+    top: 6rem;
+    left: 49rem;
+    text-align: center;
+    /* font-size: 90px; */
+
+
+}
+
+#letter
+{
+    position: relative;
+    width: 27rem;
+    left: 52.4rem;
+    top: 95px;
+}
+
+.prof
+{
+    margin-left: 25rem;
+}
+
+#pred-box h5{
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    top: 7.3rem;
+    width: 23rem;
+    left: 55.6px;
+    border: 4px ridge #438cd1;
+    padding: 6px 6px;
+    text-align: center;
+}
+
+
+#pred{
+    font-size:90px;
+}
+
+.btn-box{
+    position: relative;
+    left: 46rem;
+    top: 6rem;
+    width: 26rem;
+    border: 1px solid black;
+}
+
+.btn-box h4{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 14rem;
+    position: relative;
+    left: 30rem;
+    top: 8rem;  
+}
+
+body{
+    background: linear-gradient(290deg, #43d826, #1befb8);
+    background-size: 400% 400%;
+
+    -webkit-animation: sentence 6s ease infinite;
+    -moz-animation: sentence 6s ease infinite;
+    animation: sentence 6s ease infinite;
+}
+
+@-webkit-keyframes sentence {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@-moz-keyframes sentence {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@keyframes sentence {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+
+.sign-heading h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    border: 4px ridge olivedrab;
+    width: 48rem;
+    margin-left: 30.69rem;
+    position: relative;
+    top: 116px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.sentence-footer{
+    background: rgb(33,42,130);
+    background: linear-gradient(133deg, rgba(33,42,130,1) 46%, rgba(0,0,0,1) 77%);
+    position: relative;
+    top: 400px;
+}
+
+.brand-title{
+    height: 334px;
+    color: #fff;
+    font-size: 26px;
+    margin: 13px 41px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.explore{
+    position: relative;
+    bottom: 18.2rem;
+    left: 15rem;
+    list-style: none;
+}
+
+.explore li h3{
+    color: #FFF;
+}
+
+.explore li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.follow{
+    position: relative;
+    bottom: 29.1rem;
+    left: 27rem;
+    list-style: none;
+}
+
+.follow li h3{
+    color: #FFF;
+}
+
+.follow li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.instructions-btn{
+    position: relative;
+    left: 32rem;
+    width: 48rem;
+    top: 11rem;
+    /* background-color: red; */
+}
+
+.btn-danger{
+    margin-right: 35rem;
+}
+
+.fa-arrow-down{
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:infinite;
+}
+
+.container #place{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 54px;
+    position: relative;
+    top: 53px;
+}

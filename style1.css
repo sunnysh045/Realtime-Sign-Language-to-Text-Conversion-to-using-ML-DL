@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+body{
+    /* background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 19%, rgba(70,252,121,1) 83%); */
+    background-image: url(images/aqua.png);
+    background-repeat: repeat-y;
+    width: 89.4rem;
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(images/aqua.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disppear{
+    animation: vanish 1s forwards;
+}
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+
+nav{
+    width: 94.94rem;
+    height: 44px;
+}
+
+.search-box{
+    height:37px;
+}
+
+.container {
+    /* display: flex; */
+    /* background: red; */
+    border: 5px ridge #fff;
+    position: relative;
+    top: 80px;
+    height: 43em;
+}
+
+.btn-frame{
+    /* background-color: yellow; */
+    /* border: 5px ridge #1C6EA4; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 28em;
+    position: relative;
+    left: 48rem;
+    top: 9rem;
+}
+
+.plus-btn{
+    height: 6.5em;
+    width: 57em;
+    /* background: yellow; */
+    position: relative;
+    left: 33em;
+    top: 110px;
+}
+
+button{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.train-save-btn{
+    /* background-color: red; */
+    width: 29em;
+    position: relative;
+    top: 166px;
+    left: 51rem;
+}
+
+#defaultCanvas0{
+    position: relative;
+    left: 17rem;
+    bottom: 30rem;
+    border: 9px ridge #6B54E0;
+}
+
+.container h3{
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    left: 176px;
+    top: 80px;
+    width: 29rem;
+}
+
+.fa-arrow-down{
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:infinite;
+}
+
+.pred-box h4{
+    position: relative;
+    top: 8px;
+    left: 153px;
+    width: 27rem;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    border: 5px ridge #1FFB94;
+
+}
+
+.confidence-box h5{
+    /* background: red; */
+    width: 26rem;
+    position: relative;
+    top: 16px;
+    left: 10.3rem;
+    text-align: center;
+    /* vertical-align: middle; */
+    height: 44px;
+    border: 5px ridge #2086E8;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.profile-box{
+    position: relative;
+    margin-left: 32em;
+}
+
+.profile-box{
+    margin-left: 37rem;
+}
+
+.speak-box{
+    width: 7rem;
+}
+
+.speak-box .btn{
+    position: relative;
+    top: -49px;
+    left: 37rem;
+}
+
+.training-status-box{
+    width: 10em;
+    /* background: red; */
+}
+
+.training-status{
+    position: relative;
+    left: 59rem;
+    top: 162px;
+}
+
+.train-stats{
+    
+    width: 24em;
+    position: relative;
+    left: 49rem;
+    bottom: 29rem;
+
+}

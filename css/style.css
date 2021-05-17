@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+TC&display=swap');
+body{
+    background: #00F260;  
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+    background: linear-gradient(to right, #0575E6, #00F260); 
+    box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+    /* max-height: 100vh;    */
+}
+
+
+canvas{
+    /* width: 500px; */
+    /* height: 400px; */
+    position: relative;
+    left: 872px;
+    top: -28.4em; 
+    border: 10px ridge #0488D1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container{
+    padding: 20px;
+}
+
+.container h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: #fff;
+    border: 5px ridge #1C6EA4;
+    padding: 15px;
+
+}
+
+
+.container img{
+    position: relative;
+    top: 72px;
+    left: 30px;
+    border: 6px outset #1C6EA4;
+}
+
+.container h3{
+    position: relative;
+    left: 29em;
+    bottom: 12em;
+    width: 430px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.container h4{
+    width: 519px;
+    height: 53px;
+    position: relative;
+    top: 4em;
+    padding: 5px;
+    left: 31em;
+    border: 6px ridge rgb(28, 110, 164);
+}
+
+.pred-container{
+    padding: 10px;
+}
+
+figcaption{
+    position: relative;
+    top: 77px;
+    left: 151px;
+    /* background: red; */
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 325px;
+}
+
+.instruction{
+    position: relative;
+    top: -18px;
+    left: 200px;
+}
+
+.fa-arrow-down{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:infinite;
+}
+
+#particles-js{
+    background: #00F260;  
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+    background: linear-gradient(to right, #0575E6, #00F260); 
+    box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.75);
+}
+
+button{
+    position: relative;
+    bottom: 380px;
+    right: 30em;
+    left: 2em;
+}

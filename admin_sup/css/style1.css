@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: #F5F7FA;
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+
+.container{
+
+    background: #F5F7FA;
+    width: 70em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1em;
+    /* overflow-y: auto */
+}
+
+.article {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 22em;
+    background: yellow;
+    width: 63em;
+    height: 5.2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.article:hover{
+    border: 0.4px solid blue;
+}
+
+
+.media-container{
+    
+    display: flex;
+    flex-direction: column;
+    width: 65em;
+    position: absolute;
+    top: -8em;
+    right: 15em;
+    white-space:wrap;
+    margin-bottom: 12em;
+    
+}
+
+.first-post {
+    display: block;
+    background: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 0.8em;
+    /* top: 2em; */
+    height: 22em;
+    /* width: 65em; */
+    top: 10em;
+    border-radius: 6px;
+    float: left;
+}
+
+.media{
+    display: block;
+    background: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 0.8em;
+    /* top: 2em; */
+    height: 20em;
+    width: 70em;
+    top: 10em;
+   
+    border-radius: 6px;
+    float: left;
+}
+
+
+.media-body{
+    padding-left: 14px;
+}
+
+.image{
+    float: right;
+}
+
+.first-post .image{
+    position: relative;
+    left: 12em;
+    bottom: 5.8em;
+}
+
+.text-contain{
+    width: 40em;
+}
+
+.username{
+    font-family: 'Inter', sans-serif;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title, .post-date, .content{
+    font-weight: 700;
+}
+
+
+.inner-container{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    width: 21em;
+    height: auto;
+    position: fixed;
+    top: 2em;
+    right: 5em;
+    white-space: wrap;
+    /* margin-bottom: 12em; */
+    border: 2px solid #dddd;
+    border-radius: 10px;
+}
+
+.inner-container .profile-pic{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.inner-container .followers{
+    position: relative;
+    top: 28px;
+    right: 14px;
+}
+
+.followers h4{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.followers p{
+    width: 200px;
+    height: 88px;
+    /* background: red; */
+    font-weight: bold;
+    position: relative;
+    right: 3px;
+}
+
+hr{
+    border: 0.1px solid lightgray;
+    
+}
+
+.line{
+    border: 1px solid black;
+}
+
+.follow-btn{
+    position: relative;
+    left: 217px;
+    bottom: 30px;
+}

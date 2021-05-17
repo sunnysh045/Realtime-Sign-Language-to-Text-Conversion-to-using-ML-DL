@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-container{
+    display: flex;
+    position: relative;
+    left: 12em;
+    width: 72.6em;
+    min-height: 100px;
+    /* box-shadow:3px 3px 3px 1px #EDEFF2;  */
+}
+
+#title{
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #292929;
+}
+
+.follow-btn1{
+    border: 1px solid #292929;
+    position: relative;
+    left: 15px;
+    bottom: 2px;
+}
+
+.post-cont{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 31px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.time{
+    font-weight: bold;
+}
+
+.post-row{
+    position: absolute;
+    left: 6em;
+    min-height: 50em;
+    top: 2em;
+}
+
+.hf{
+    position: relative;
+    left: 39em;
+    bottom: 2em;
+}
+
+.like{
+    position: relative;
+    bottom: 50px;
+    right: 144px;
+}
+
+.unlike{
+    position: relative;
+    bottom: 50px;
+    right: 144px;
+}
+
+.like-count{
+    position: relative;
+    bottom: 2em;
+    margin-right: 144px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#break{
+    position: relative;
+    bottom: 58px;
+}
